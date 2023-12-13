@@ -3,6 +3,7 @@ import React from "react"
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import './App.css'
 import Home from "./views/home/home"
+import Chef from "./views/chef/chef"
 import Equipo from "./views/equipo/equipo"
 import Menu from "./views/menu/menu"
 import Servicios from "./views/servicios/servicios"
@@ -20,8 +21,16 @@ function App() {
     <LangProvider>
 
     <BrowserRouter>
+    
+
+    <div className="md:flex">
+    <NavBar />
+    
+
+    <div className="flex-1 h-screen overflow-hidden">
     <Routes>
       <Route exact path="/" Component ={Home}/>
+      <Route exact path="/chef" Component ={Chef}/>
       <Route exact path="/team" Component ={Equipo}/>
       <Route exact path="/menu" Component ={Menu}/>
       <Route exact path="/services" Component ={Servicios}/>
@@ -29,7 +38,9 @@ function App() {
       <Route exact path="/LosCabos" Component ={Cabos}/>
       <Route exact path="/contactUs" Component ={Contacto}/>
     </Routes>
-    <NavBar />
+    </div>
+    </div>
+    
     </BrowserRouter>
      
     </LangProvider> 

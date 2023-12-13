@@ -1,4 +1,35 @@
-#root {
+@font-face {
+  font-family: "Kollektiff";
+  src: url("./font/Kollektif.ttf");
+}
+
+@font-face {
+  font-family: "ArialUnicode";
+  src: url("./font/arial-unicode-ms.ttf");
+}
+
+@font-face {
+  font-family: "Brittany";
+  src: url("./font/Brittany.ttf");
+}
+
+.title {
+  font-family: "Kollektiff";
+  font-size: xx-large;
+}
+
+.signature {
+  font-family: "Brittany";
+}
+
+.txt {
+  font-family: "ArialUnicode";
+}
+
+
+
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +70,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */

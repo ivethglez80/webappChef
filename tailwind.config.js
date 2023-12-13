@@ -5,7 +5,13 @@ export default {
       "./src/**/*.{js,ts,jsx,tsx}",    
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        title:["Kollektiff", "sans-serif"],
+        signature:["Brittany", "sans-serif"],
+        txt: ["ArialUnicode", "sans-serif"]
+      },
+    },
   },
   plugins: [],
 }

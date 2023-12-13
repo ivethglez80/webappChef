@@ -1,11 +1,12 @@
 import { FormattedMessage } from "react-intl";
+import hero from "../../img/hero.png";
 
 const Home = () => {
     return (
-        <>
-        <h1> <FormattedMessage id="home.title" defaultMessage="home default" /> </h1>
-        </>
-    )
+        <div>
+           <img src={hero} alt="logo vacation services"/>
+        </div>
+    );
 };
 
 export default Home;
