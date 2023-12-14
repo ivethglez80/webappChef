@@ -27,7 +27,7 @@ function App() {
     <NavBar />
     
 
-    <div className="flex-1 h-screen overflow-hidden">
+    <div className="flex-1 md:h-screen md:overflow-hidden bg-neutral-900">
     <Routes>
       <Route exact path="/" Component ={Home}/>
       <Route exact path="/chef" Component ={Chef}/>

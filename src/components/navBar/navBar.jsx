@@ -28,7 +28,7 @@ const NavBar = () => {
         <>
             <div className="bg-black flex flex-col justify-around md:flex md:flex-col md:justify-normal md:h-screen md:w-1/6">
 
-                <div className="flex sm:flex-row sm:w-screen sm:justify-between md:flex-col md:w-full">
+                <div className="flex sm:flex-row sm:w-screen sm:pt-2 sm:ml-6 sm:justify-between md:flex-col md:w-full">
                         <span>
                         <img src={logochef1} alt="logo private chef services at los cabos" className=" md:hidden" />
                         </span>
@@ -39,9 +39,9 @@ const NavBar = () => {
                     <span className="sm:flex sm:flex-col sm:justify-center md:pt-3"> {/*mundito toggle de lenguaje*/}
                         <div className="md:self-center md:mb-2"> 
                             {langMenuOpen ? (
-                                <TbWorldDown onClick={toggleLangMenu} className="stroke-yellow-500 md:text-3xl sm:text-lg " />
+                                <TbWorldDown onClick={toggleLangMenu} className="stroke-yellow-500 md:text-3xl sm:text-2xl " />
                             ) : (
-                                <TbWorld onClick={toggleLangMenu} className="stroke-yellow-600 md:text-3xl sm:text-lg "/>
+                                <TbWorld onClick={toggleLangMenu} className="stroke-yellow-600 md:text-3xl sm:text-2xl "/>
                             )}
                         </div>
 
@@ -60,7 +60,7 @@ const NavBar = () => {
                         </span> {/* termina el envoltorio de mundito y toggle nav*/}
 
                             {/*Menu toggle navegacion*/}
-                            <span className="md:hidden flex justify-start mr-3">
+                            <span className="md:hidden flex justify-start mr-3 sm:text-2xl">
                                 {menuOpen ? (
                                     <AiOutlineClose onClick={toggleMenu} style={{ color: '#FFDE59' }} />
                                     ) : (
@@ -74,7 +74,7 @@ const NavBar = () => {
                 
                 <ul className={`sm:absolute ${menuOpen ? "opacity-100" : "opacity-0"} 
                       sm:bg-black sm:rounded-sm font-title sm:text-center 
-                        sm:mt-64 flex flex-col sm:right-8 sm:px-2 sm:pb-1
+                        sm:mt-72 flex flex-col sm:right-8 sm:px-2 sm:pb-1
                         md:opacity-100 md:relative md:tracking-widest md:mt-0 md:ml-14
                       `}
                       >

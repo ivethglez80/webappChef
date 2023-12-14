@@ -7,5 +7,17 @@
     "nav.cabo": "Los Cabos",
     "nav.contactUs": "Contact Us",
 
-    "home.title": "this is home"
+    "home.title": "this is home",
+
+    "chef.p1": "From his childhood, Chef Alfonso has been captivated by the art of cooking. His early culinary experiments left family and friends astonished, revealing his innate talent from an early age.",
+    "chef.p2": "With dedication and determination, he studied and specialized in international cuisine, immersing himself in the richness of flavors from around the world.",
+    "chef.p3": "Throughout his career, he has led kitchens in hotels and restaurants in Mexico and the United States, establishing exceptional quality standards. Additionally, he shared his extensive knowledge as a teacher in renowned culinary institutes, inspiring future generations of chefs.",
+    "chef.p4": "Every dish he creates is a culinary masterpiece, the result of years of experience and unbridled passion for gastronomy.",
+    "chef.p5": "With a solid academic foundation and a global perspective, this chef blends culinary traditions with innovation, offering unforgettable gastronomic experiences that delight the senses and satisfy the most discerning palates.",
+
+    "chef.phrase": "Gastronomy is not my profession, it is my life.",
+
+    "equipo.p1" : "Each member of Chef Alfonso's working team is a passionate professional with a solid background in the gastronomic and tourism service industry. The Chef has instilled in each of them a passion for excellence, attention to detail, and a clear mission: for you to enjoy unforgettable moments.",
+    "equipo.p2" : "Our service approach is personalized for each occasion, and with unwavering dedication, Chef Alfonso's team is ready to turn every moment into an extraordinary event.",
+    "equipo.p3" : "We diligently work to make your stay in Los Cabos an experience where excellence is the norm, and your satisfaction is our greatest reward."
 }

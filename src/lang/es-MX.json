@@ -7,5 +7,18 @@
     "nav.cabo": "Los Cabos",
     "nav.contactUs": "Contacto",
 
-    "home.title": "Aqui es casa"
+    "home.title": "Aqui es casa",
+
+    "chef.p1": "Desde su infancia, el chef Alfonso ha estado cautivado por el arte de la cocina. Sus primeros experimentos culinarios dejaban a familiares y amigos asombrados, revelando su talento innato desde una edad temprana.",
+    "chef.p2": "Con dedicación y determinación, estudió y se especializó en cocina internacional, sumergiéndose en la riqueza de sabores de todo el mundo.",
+    "chef.p3": "A lo largo de su carrera, ha liderado cocinas en hoteles y restaurantes de México y Estados Unidos, estableciendo estándares de calidad excepcionales. Además, compartió su vasto conocimiento como profesor en institutos gastronómicos de renombre, inspirando a las generaciones futuras de chefs.",
+    "chef.p4": "Cada plato que crea es una obra maestra culinaria, resultado de años de experiencia y pasión desenfrenada por la gastronomía.",
+    "chef.p5": "Con una sólida base académica y una perspectiva global, este chef fusiona tradiciones culinarias con innovación, ofreciendo experiencias gastronómicas inolvidables que deleitan los sentidos y satisfacen los paladares más exigentes.",
+
+    "chef.phrase": "La gastronomia no es mi profesion, es mi vida",
+
+    "equipo.p1" : "Cada integrante del equipo de trabajo del Chef Alfonso es un apasionado profesional con una sólida trayectoria en la industria del servicio gastronómico y turístico. El Chef ha transmitido a cada uno de ellos la pasión por la excelencia, la atención a los detalles y una misión clara: que usted disfrute de momentos inolvidables.",
+    "equipo.p2" : "Nuestro enfoque de servicio es personalizado para cada ocasión, y con una dedicación inquebrantable, el equipo del Chef Alfonso está preparado para convertir cada momento en un evento extraordinario.",
+    "equipo.p3" : "Trabajamos con esmero para hacer que su estancia en Los Cabos sea una experiencia donde la excelencia es la norma y su satisfacción es nuestra mayor recompensa."
+
 }
