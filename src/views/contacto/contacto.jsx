@@ -9,12 +9,12 @@ const Contacto = () => {
                         sm:flex sm:flex-col                   
                         border-b-2 border-yellow-400">
 
-                <div className="md:my-20 md:ml-10 flex justify-center"> {/* contactForm */}
+                <div className="md:my-12 md:ml-10 flex justify-center"> {/* contactForm */}
                     <ContactForm />
                 </div> {/* contactForm ends*/}
 
 
-                <div className="md:m-20 sm:m-10 flex justify-center">{/* img */}
+                <div className="md:m-20 md:block sm:m-10 sm:flex sm:justify-center">{/* img */}
 
                     <img src={chefalfonso2} alt="chef alfonso wedding service at los cabos" />
 

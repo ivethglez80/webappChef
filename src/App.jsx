@@ -11,6 +11,7 @@ import Eventos from "./views/eventos/eventos"
 import Cabos from "./views/cabos/cabos"
 import Contacto from "./views/contacto/contacto"
 import NavBar from "./components/navBar/navBar"
+import SendWpp from "./components/wppMsj/wppMsj"
 import { LangProvider } from "./context/langContext"
 
 function App() {
@@ -26,7 +27,6 @@ function App() {
     <div className="md:flex">
     <NavBar />
     
-
     <div className="flex-1 md:h-screen md:overflow-hidden bg-neutral-900">
     <Routes>
       <Route exact path="/" Component ={Home}/>
@@ -37,8 +37,10 @@ function App() {
       <Route exact path="/events" Component ={Eventos}/>
       <Route exact path="/LosCabos" Component ={Cabos}/>
       <Route exact path="/contactUs" Component ={Contacto}/>
-    </Routes>
+    </Routes>  
     </div>
+
+    <SendWpp />
     </div>
     
     </BrowserRouter>
