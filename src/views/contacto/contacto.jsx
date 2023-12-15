@@ -9,7 +9,7 @@ const Contacto = () => {
                         sm:flex sm:flex-col                   
                         border-b-2 border-yellow-400">
 
-                <div> {/* contactForm */}
+                <div className="md:my-20 md:ml-10 flex justify-center"> {/* contactForm */}
                     <ContactForm />
                 </div> {/* contactForm ends*/}
 

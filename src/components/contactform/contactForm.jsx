@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Button, Label, Textarea, TextInput } from "flowbite-react";
 
 const ContactForm = () => {
 
@@ -46,41 +46,53 @@ const ContactForm = () => {
         }));
     };
 
+    const clearForm = () =>{
+        setState({
+            nombre: "",
+            apellido: "",
+            email: "",
+            consulta: ""
+          });
+    }
+
     const handleSubmit = async(e) => {
         e.preventDefault();
         console.log(state);
         await sendEmail();
+        clearForm();
     }
 
 
     return (
+        <div className="flex max-w-md flex-col">
         <div >
-        <div>
             <form onSubmit={handleSubmit} >
-                <div >
-                    <label >Nombre: </label> <br />
-                    <input type="text" name="nombre" value={state.nombre} onChange={handleInput}  />
+                <div className="mb-3">                   
+                    <Label htmlFor="name1" value="Name:" className="font-txt text-slate-200"></Label>                   
+                    <TextInput type="text" name="nombre" value={state.nombre} placeholder="name" required onChange={handleInput}></TextInput>
                 </div>
-                <div >
-                    <label >Apellido: </label> <br />
-                    <input type="text" name="apellido" value={state.apellido} onChange={handleInput}  />
+                <div className="mb-3">                   
+                    <Label htmlFor="lastName" value="Last Name:" className="font-txt text-slate-200"></Label>                   
+                    <TextInput type="text" name="apellido" value={state.apellido} placeholder="Last Name" required  onChange={handleInput}></TextInput>
                 </div>
-                <div >
-                    <label >Correo electronico: </label> <br />
-                    <input type="email" name="email" value={state.email} onChange={handleInput}  />
+                <div className="mb-3">                    
+                    <Label htmlFor="email" value="E-mail:" className="font-txt text-slate-200"></Label>                    
+                    <TextInput type="email" name="email" value={state.email} placeholder="name@mail.com" onChange={handleInput}></TextInput>
                 </div>
-                <div >
-                    <label >Por favor detalle una breve <br /> descripcion de su consulta:</label> <br />
-                    <textarea
+                <div className="mb-3">
+                    <Label htmlFor="detalle" value="Please provide a description of the service you are interested in:" className="font-txt text-slate-200"></Label> <br />
+                    <Textarea
+                        placeholder="I'm interested in..."
+                        required rows={6}
                         name="consulta"
                         value={state.consulta}
                         onChange={handleInput}
                                                  
                     />
                 </div>
-                <div >
-                    <label ></label>
-                    <button type="submit">Enviar</button>
+                <div className="mb-3 content-end">
+                    
+                    <Button type="submit" className="bg-yellow-500 active:bg-yellow-600">Submit</Button>
                 </div>
             </form>
         </div>        
