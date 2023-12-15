@@ -1,7 +1,26 @@
+import ContactForm from "../../components/contactform/contactForm"
+import chefalfonso2 from "../../img/chefalfonso2.png"
+
 const Contacto = () => {
     return (
         <>
-        <p>Aqui va el formulario de contacto</p>
+            {/* main container */}
+            <div className="md:h-screen md:grid md:grid-cols-2 
+                        sm:flex sm:flex-col                   
+                        border-b-2 border-yellow-400">
+
+                <div> {/* contactForm */}
+                    <ContactForm />
+                </div> {/* contactForm ends*/}
+
+
+                <div className="md:m-20">{/* img */}
+
+                    <img src={chefalfonso2} alt="chef alfonso wedding service at los cabos" />
+
+                </div>{/* img ends */}
+
+            </div>{/* main container ends*/}
         </>
     )
 }
