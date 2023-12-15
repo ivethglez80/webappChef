@@ -19,5 +19,36 @@
 
     "equipo.p1" : "Each member of Chef Alfonso's working team is a passionate professional with a solid background in the gastronomic and tourism service industry. The Chef has instilled in each of them a passion for excellence, attention to detail, and a clear mission: for you to enjoy unforgettable moments.",
     "equipo.p2" : "Our service approach is personalized for each occasion, and with unwavering dedication, Chef Alfonso's team is ready to turn every moment into an extraordinary event.",
-    "equipo.p3" : "We diligently work to make your stay in Los Cabos an experience where excellence is the norm, and your satisfaction is our greatest reward."
+    "equipo.p3" : "We diligently work to make your stay in Los Cabos an experience where excellence is the norm, and your satisfaction is our greatest reward.",
+
+    "menu.title1": "The experience",
+    "menu.p1" : "When we indulge in Chef Alfonso's culinary experience, we not only taste the masterful blend of ingredients but also immerse ourselves in a feast of experiences, memories, and narratives that transport us to unforgettable moments and places. ",
+    "menu.p2" : "Every bite is an exhilarating journey that embeds itself in our memory and comfortably settles in the most special corner of our hearts.",
+    "menu.p3" : "Delighting in his creations is not just about nourishing the body; it is about feeding the soul with a symphony of emotions that resonate long after the last delicious note has been savored.",
+    "menu.title2" : "Complete Menu Options",
+    "menu.p21" : "The menu options presented below are not exhaustive. Contact us to create an exclusive, tailored, and personalized menu for your event or occasion.",
+
+    "menu.app" : "WELCOME MENU",
+    "menu.app1" : "Guacamole | Chips | mexican sauces",
+    "menu.app2" : "Mini Shrimp | seafood Coktail",
+    "menu.app3" : "Tuna sashimi",
+    "menu.app4" : "Seasoned Corn kernels",
+    "menu.app5" : "Quesadillas: chicken | beef | seafood | vegetables",
+    "menu.app6" : "Skew: fruit | chicken | beef | seafood | vegetables ",
+    "menu.app7" : "Mexican street food: sopes | memelas | tostadas | chalupas | and more",
+    "menu.app8" : "Crispy taquitos",
+    "menu.app9" : "Crudites: humus | homemade dressing ",
+    "menu.dr" : "BEVERAGES",
+    "menu.dr1" : "Mezcalitas cocktail",
+    "menu.dr2" : "Fresh fruit mexican drinks (Non-Alcoholic)",
+
+    "menu.br": "BREAKFAST MENU",
+    "menu.br1": "Ranchero Eggs | Divorced Eggs | Mexican Style Eggs",
+    "menu.br2": "Chilaquiles with Eggs",
+    "menu.br3": "Machaca Burrito with Egg",
+    "menu.br4": "Oatmeal with Fruits | Nuts",
+    "menu.br5": "Vegetable Omelette | Chorizo | Cheese",
+    "menu.br6": "Toasted Bread with Avocado and Fresh Leaves",
+    "menu.br7": "Enfrijoladas with Chicken | Cheese",
+    "menu.br8": "Additionally: Cereals | Yogurt | Fruit | Hot Cakes or Waffles | Potatoes with Sausage | Coffee | Tea | Orange Juice"
 }

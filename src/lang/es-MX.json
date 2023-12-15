@@ -19,6 +19,37 @@
 
     "equipo.p1" : "Cada integrante del equipo de trabajo del Chef Alfonso es un apasionado profesional con una sólida trayectoria en la industria del servicio gastronómico y turístico. El Chef ha transmitido a cada uno de ellos la pasión por la excelencia, la atención a los detalles y una misión clara: que usted disfrute de momentos inolvidables.",
     "equipo.p2" : "Nuestro enfoque de servicio es personalizado para cada ocasión, y con una dedicación inquebrantable, el equipo del Chef Alfonso está preparado para convertir cada momento en un evento extraordinario.",
-    "equipo.p3" : "Trabajamos con esmero para hacer que su estancia en Los Cabos sea una experiencia donde la excelencia es la norma y su satisfacción es nuestra mayor recompensa."
+    "equipo.p3" : "Trabajamos con esmero para hacer que su estancia en Los Cabos sea una experiencia donde la excelencia es la norma y su satisfacción es nuestra mayor recompensa.",
+
+    "menu.title1": "La experiencia",
+    "menu.p1" : "Cuando nos entregamos a la experiencia culinaria del Chef Alfonso, no solo saboreamos la mezcla magistral de ingredientes; también nos sumergimos en un festín de vivencias, recuerdos y narrativas que nos transportan a momentos y lugares inolvidables.",
+    "menu.p2" : "Cada bocado es una emocionante travesía que se arraiga en nuestra memoria y se instala cómodamente en el rincón más especial de nuestro corazón. ",
+    "menu.p3" : "Deleitarse con sus creaciones no es solo alimentar el cuerpo; es nutrir el alma con una sinfonía de emociones que resuenan mucho después de que la última deliciosa nota ha sido saboreada.",
+    "menu.title2" : "Opciones de Menú completo",
+    "menu.p21" : "Las opciones de menú que se presentan a continuación no son exhaustivas. Contáctanos para crear un menú exclusivo, adaptado y personalizado para tu evento u ocasión.",
+
+    "menu.app" : "MENU BIENVENIDA",
+    "menu.app1" : "Guacamole | Chips | variedad de salsas",
+    "menu.app2" : "Mini Cocktel de camarones | mariscos",
+    "menu.app3" : "Sashimi de Atun",
+    "menu.app4" : "Esquites",
+    "menu.app5" : "Quesadillas de pollo | carne | mariscos | vegetales",
+    "menu.app6" : "Banderillas de frutas | pollo | carnes | mariscos | vegetales ",
+    "menu.app7" : "Antojitos: sopes | memelas | tostadas | chalupas | otros",
+    "menu.app8" : "Taquitos dorados",
+    "menu.app9" : "Crudites con humus | aderezos ",
+    "menu.dr" : "BEBIDAS",
+    "menu.dr1" : "Mezcalitas cocktail",
+    "menu.dr2" : "Fresh fruit mexican drinks (Non-Alcoholic)",
+
+    "menu.br": "MENU DESAYUNO",
+    "menu.br1": "Huevos rancheros | divorciados | a la mexicana",
+    "menu.br2": "Chilaquiles con huevos",
+    "menu.br3": "Burrito de machaca con huevo",
+    "menu.br4": "Avena con frutas | nueces",
+    "menu.br5": "Omellette con verduras | chorizo | queso",
+    "menu.br6": "Pan tostado con aguacate y hojas frescas",
+    "menu.br7": "Enfrijoladas con pollo | queso",
+    "menu.br8": "Ademas: Cereales | yogurt | fruta | hot cakes o waffles | papas con salchicha | cafe | te | jugo de naranja"
 
 }
