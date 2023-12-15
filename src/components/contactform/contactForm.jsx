@@ -64,7 +64,7 @@ const ContactForm = () => {
 
 
     return (
-        <div className="flex max-w-md flex-col">
+        <div className="flex max-w-md flex-col sm:my-8">
         <div >
             <form onSubmit={handleSubmit} >
                 <div className="mb-3">                   
@@ -90,9 +90,9 @@ const ContactForm = () => {
                                                  
                     />
                 </div>
-                <div className="mb-3 content-end">
+                <div className="mb-3 flex justify-end">
                     
-                    <Button type="submit" className="bg-yellow-500 active:bg-yellow-600">Submit</Button>
+                    <Button type="submit" className="bg-yellow-400 enabled:hover:bg-yellow-500">Submit</Button>
                 </div>
             </form>
         </div>        

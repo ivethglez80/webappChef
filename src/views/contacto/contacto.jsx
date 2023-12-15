@@ -14,7 +14,7 @@ const Contacto = () => {
                 </div> {/* contactForm ends*/}
 
 
-                <div className="md:m-20">{/* img */}
+                <div className="md:m-20 sm:m-10 flex justify-center">{/* img */}
 
                     <img src={chefalfonso2} alt="chef alfonso wedding service at los cabos" />
 
