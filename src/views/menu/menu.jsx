@@ -256,8 +256,8 @@ const Menu = () => {
 
                     <div className="md:h-full sm:h-screen mx-4">
                         <Carousel>
-                            <img src="img20" alt="..." />
-                            <img src="imgd4" alt="..." />
+                            <img src={img20} alt="..." />
+                            <img src={imgd4} alt="..." />
                             {menuImgs.map((imgToShow, index)=>(
                                 <img key={index} src={imgToShow} alt="..." />
                             ))}                            
