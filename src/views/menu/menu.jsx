@@ -1,8 +1,39 @@
 import { Carousel } from "flowbite-react";
 import { FormattedMessage } from "react-intl";
 import "./menu.css";
+import img20 from "./../../img/20.png";
+import imgd4 from "./../../img/d4.png";
+
 
 const Menu = () => {
+
+    let menuImgs = [
+        "https://i.ibb.co/LrmKzds/18.png",
+        "https://i.ibb.co/23DDjTr/19.png",
+        "https://i.ibb.co/Qd8tLP1/d1.png",
+        "https://i.ibb.co/gz1mQPS/d2.png",
+        "https://i.ibb.co/Cw6wzZz/d3.png",
+        "https://i.ibb.co/WKZXys9/d4.png",
+        "https://i.ibb.co/M8sMYSW/d5.png",
+        "https://i.ibb.co/hB9nPkp/1.png",
+        "https://i.ibb.co/TM3c8KB/2.png",
+        "https://i.ibb.co/RpCr9TF/3.png",
+        "https://i.ibb.co/9Yg2KtP/4.png",
+        "https://i.ibb.co/BHJRWXF/5.png",
+        "https://i.ibb.co/9ZFRLkm/6.png",
+        "https://i.ibb.co/GWRSmH3/7.png",
+        "https://i.ibb.co/7j7F0mS/8.png",
+        "https://i.ibb.co/f4KkDGC/9.png",
+        "https://i.ibb.co/3Ybjz4j/10.png",
+        "https://i.ibb.co/NCxqVR0/Whats-App-Image-2023-12-14-at-9-38-10-AM-1.jpg",
+        "https://i.ibb.co/jvpcJhS/Whats-App-Image-2023-12-14-at-9-38-10-AM-2.jpg",
+        "https://i.ibb.co/WVB8hPM/Whats-App-Image-2023-12-14-at-9-38-10-AM.jpg",
+        "https://i.ibb.co/tb9ZvHv/El-Equipo.png",
+        "https://i.ibb.co/4VHH7W1/El-Equipo-1.png",
+        "https://i.ibb.co/hd7Qkjk/17.png",
+    ]
+
+
     return (
         <>
             <div className="md:h-screen md:grid md:grid-cols-2 
@@ -225,29 +256,11 @@ const Menu = () => {
 
                     <div className="md:h-full sm:h-screen mx-4">
                         <Carousel>
-                            <img src="https://i.ibb.co/LrmKzds/18.png" alt="..." />
-                            <img src="https://i.ibb.co/23DDjTr/19.png" alt="..." />
-                            <img src="https://i.ibb.co/Qd8tLP1/d1.png" alt="..." />
-                            <img src="https://i.ibb.co/gz1mQPS/d2.png" alt="..." />
-                            <img src="https://i.ibb.co/Cw6wzZz/d3.png" alt="..." />
-                            <img src="https://i.ibb.co/WKZXys9/d4.png" alt="..." />
-                            <img src="https://i.ibb.co/M8sMYSW/d5.png" alt="..." />
-                            <img src="https://i.ibb.co/hB9nPkp/1.png" alt="..." />
-                            <img src="https://i.ibb.co/TM3c8KB/2.png" alt="..." />
-                            <img src="https://i.ibb.co/RpCr9TF/3.png" alt="..." />
-                            <img src="https://i.ibb.co/9Yg2KtP/4.png" alt="..." />
-                            <img src="https://i.ibb.co/BHJRWXF/5.png" alt="..." />
-                            <img src="https://i.ibb.co/9ZFRLkm/6.png" alt="..." />
-                            <img src="https://i.ibb.co/GWRSmH3/7.png" alt="..." />
-                            <img src="https://i.ibb.co/7j7F0mS/8.png" alt="..." />
-                            <img src="https://i.ibb.co/f4KkDGC/9.png" alt="..." />
-                            <img src="https://i.ibb.co/3Ybjz4j/10.png" alt="..." />
-                            <img src="https://i.ibb.co/NCxqVR0/Whats-App-Image-2023-12-14-at-9-38-10-AM-1.jpg" alt="..." />
-                            <img src="https://i.ibb.co/jvpcJhS/Whats-App-Image-2023-12-14-at-9-38-10-AM-2.jpg" alt="..." />
-                            <img src="https://i.ibb.co/WVB8hPM/Whats-App-Image-2023-12-14-at-9-38-10-AM.jpg" alt="..." />
-                            <img src="https://i.ibb.co/tb9ZvHv/El-Equipo.png" alt="..." />
-                            <img src="https://i.ibb.co/4VHH7W1/El-Equipo-1.png" alt="..." />
-                            <img src="https://i.ibb.co/hd7Qkjk/17.png" alt="..." />
+                            <img src="img20" alt="..." />
+                            <img src="imgd4" alt="..." />
+                            {menuImgs.map((imgToShow, index)=>(
+                                <img key={index} src={imgToShow} alt="..." />
+                            ))}                            
                         </Carousel>
                     </div>
 

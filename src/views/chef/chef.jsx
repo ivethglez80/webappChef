@@ -28,9 +28,9 @@ const Chef = () => {
                     <p>
                         <FormattedMessage id="chef.p4" defaultMessage="aqui va el parrafo 4" />
                     </p>
-                    <p>
+                    {/* <p>
                         <FormattedMessage id="chef.p5" defaultMessage="aqui va el parrafo 5" />
-                    </p>
+                    </p> */}
                 </div>
 
                     <p className="font-signature text-slate-400 text-right pr-2 text-4xl font-medium my-6">
