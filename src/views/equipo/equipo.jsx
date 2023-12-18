@@ -24,8 +24,9 @@ const Equipo = () => {
                         sm:flex sm:flex-col                   
                         border-b-2 border-yellow-400"> {/* el div que contiene todo */}
 
-        <div className="font-txt text-slate-200 mx-10 sm:my-6 md:mt-32"> {/* textos */}
+        <div className="font-txt text-slate-200 mx-10 sm:my-6 md:mt-20"> {/* textos */}
 
+        <h1 className="font-signature text-yellow-400 text-5xl md:pb-3"><FormattedMessage id="equipo.title" defaultMessage="About us" /></h1>
         <p className="mb-4">
             <FormattedMessage id="equipo.p1" defaultMessage="Each member of Chef Alfonso's working team is a passionate professional with a solid background in the gastronomic and tourism service industry. The Chef has instilled in each of them a passion for excellence, attention to detail, and a clear mission: for you to enjoy unforgettable moments." />
         </p>
@@ -42,10 +43,10 @@ const Equipo = () => {
         <Transition
           key={i}
           show={i === index}
-          enter="transition-opacity duration-400 "
+          enter="transition-opacity duration-300 "
           enterFrom="opacity-0"
           enterTo="opacity-100"
-          leave="transition-opacity duration-400 "
+          leave="transition-opacity duration-300 "
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >

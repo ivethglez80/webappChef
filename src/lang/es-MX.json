@@ -12,11 +12,12 @@
     "chef.p1": "Desde su infancia, el chef Alfonso ha estado cautivado por el arte de la cocina. Sus primeros experimentos culinarios dejaban a familiares y amigos asombrados, revelando su talento innato desde una edad temprana.",
     "chef.p2": "Con dedicación y determinación, estudió y se especializó en cocina internacional, sumergiéndose en la riqueza de sabores de todo el mundo.",
     "chef.p3": "A lo largo de su carrera, ha liderado cocinas en hoteles y restaurantes de México y Estados Unidos, estableciendo estándares de calidad excepcionales. Además, compartió su vasto conocimiento como profesor en institutos gastronómicos de renombre, inspirando a las generaciones futuras de chefs.",
-    "chef.p4": "Cada plato que crea es una obra maestra culinaria, resultado de años de experiencia y pasión desenfrenada por la gastronomía.",
+    "chef.p4": "Cada plato que crea es una obra maestra culinaria, resultado de años de experiencia y pasión por la gastronomía.",
     "chef.p5": "Con una sólida base académica y una perspectiva global, este chef fusiona tradiciones culinarias con innovación, ofreciendo experiencias gastronómicas inolvidables que deleitan los sentidos y satisfacen los paladares más exigentes.",
 
     "chef.phrase": "La gastronomia no es mi profesion, es mi vida",
 
+    "equipo.title" : "Quienes somos",
     "equipo.p1" : "Cada integrante del equipo de trabajo del Chef Alfonso es un apasionado profesional con una sólida trayectoria en la industria del servicio gastronómico y turístico. El Chef ha transmitido a cada uno de ellos la pasión por la excelencia, la atención a los detalles y una misión clara: que usted disfrute de momentos inolvidables.",
     "equipo.p2" : "Nuestro enfoque de servicio es personalizado para cada ocasión, y con una dedicación inquebrantable, el equipo del Chef Alfonso está preparado para convertir cada momento en un evento extraordinario.",
     "equipo.p3" : "Trabajamos con esmero para hacer que su estancia en Los Cabos sea una experiencia donde la excelencia es la norma y su satisfacción es nuestra mayor recompensa.",
@@ -50,6 +51,19 @@
     "menu.br5": "Omellette con verduras | chorizo | queso",
     "menu.br6": "Pan tostado con aguacate y hojas frescas",
     "menu.br7": "Enfrijoladas con pollo | queso",
-    "menu.br8": "Ademas: Cereales | yogurt | fruta | hot cakes o waffles | papas con salchicha | cafe | te | jugo de naranja"
+    "menu.br8": "Ademas: Cereales | yogurt | fruta | hot cakes o waffles | papas con salchicha | cafe | te | jugo de naranja",
+
+    "svcs.title": "Servicios",
+    "svcs.desc": "Cualquiera que sea la ocasión o evento, contamos con los servicios disponibles para que sea perfecto e inolvidable.",
+    "svcs.1":"Espacios para eventos",
+    "svcs.2":"Transporte",
+    "svcs.3":"Mariachis",
+    "svcs.4":"Renta de villas",
+    "svcs.5":"Spa",
+    "svcs.6":"Florista",
+    "svcs.7":"Catering",
+    "svcs.8":"DJ",
+    "svcs.9":"Fotografia profesional",
+    "svcs.10": "Que te gustaria? contáctanos!"
 
 }
