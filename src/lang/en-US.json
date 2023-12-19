@@ -64,6 +64,20 @@
     "svcs.7":"Catering",
     "svcs.8":"DJ",
     "svcs.9":"Professional Photographer",
-    "svcs.10": "What would you like? let us know!"
+    "svcs.10": "What would you like? let us know!",
+
+    "events.title":"EVENTS & OCCASIONS",
+    "events.1":"We offer a complete range of services to transform your special moments into unforgettable experiences.",
+    "events.2":"Whether you are planning a family vacation, your wedding, a romantic getaway, an intimate engagement dinner, or a high-level corporate event, we are committed to exceeding your expectations and providing exceptional service.",
+    "events.3":"We understand that each event is unique, which is why we customize every detail according to your needs. Contact us!",
+    "events.4":"¡Contact us!",
+
+    "cabos.title": "LOS CABOS",
+    "cabos.1":"Welcome to Los Cabos, a vibrant stage of dazzling contrasts:",
+    "cabos.11":"turquoise waters embracing golden beaches and arid mountains rising majestically towards the sky.",
+    "cabos.2":"Home to the iconic arch, where the Sea of Cortez and the Pacific Ocean converge.",
+    "cabos.3":"With over a decade of experience in this paradise, we've made this corner our gastronomic home.",
+    "cabos.4":"Discover that our service is a celebration of life, art, and local culture.",
+    "cabos.end":"We are awaiting your reservation!"
 
 }

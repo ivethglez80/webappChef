@@ -33,7 +33,7 @@ const Chef = () => {
                     </p> */}
                 </div>
 
-                    <p className="font-signature text-slate-400 text-right pr-2 text-4xl font-medium my-6">
+                    <p className="font-signature text-yellow-200 text-right pr-2 text-4xl font-medium my-6">
                         <FormattedMessage id="chef.phrase" defaultMessage="aqui va la frase" />
                     </p>
             </div>

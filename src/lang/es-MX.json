@@ -64,6 +64,20 @@
     "svcs.7":"Catering",
     "svcs.8":"DJ",
     "svcs.9":"Fotografia profesional",
-    "svcs.10": "Que te gustaria? contáctanos!"
+    "svcs.10": "Que te gustaria? contáctanos!",
+
+    "events.title":"EVENTOS Y OCASIONES",
+    "events.1":"Contamos con una gama completa de servicios, para transformar tus momentos especiales en experiencias inolvidables.",
+    "events.2":"Ya sea que estés planificando unas vacaciones familiares, tu boda, una escapada romántica, una cena de compromiso íntima o un evento corporativo de alto nivel, estamos comprometidos a superar tus expectativas y brindarte un servicio excepcional. ",
+    "events.3":"Sabemos que cada evento es único y es por eso que personalizamos cada detalle conforme a tus necesidades. ",
+    "events.4":"¡Contáctanos!",
+
+    "cabos.title": "LOS CABOS",
+    "cabos.1":"Los Cabos, escenario vibrante de contrastes deslumbrantes:",
+    "cabos.11": "aguas turquesas que se abrazan con playas doradas y montañas áridas que se elevan majestuosamente hacia el cielo.",
+    "cabos.2":"Hogar del icónico arco, donde el Mar de Cortés y el Océano Pacífico se conectan.",
+    "cabos.3":"Con más de una década de experiencia en este paraíso, hemos hecho de este rincón nuestro hogar gastronómico.",
+    "cabos.4":"Descubre que nuestro servicio es una celebración de la vida, el arte y la cultura local.",
+    "cabos.end":"Esperamos tu reserva!"
 
 }
