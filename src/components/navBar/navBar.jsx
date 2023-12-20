@@ -75,7 +75,7 @@ const NavBar = () => {
                 
                 <ul className={`sm:absolute ${menuOpen ? "opacity-100" : "opacity-0"} text-sm
                       sm:bg-black sm:rounded-sm font-title sm:text-center 
-                        sm:mt-72 flex flex-col sm:right-8 sm:px-2 sm:pb-1
+                        sm:mt-72 flex flex-col sm:right-8 sm:px-2 sm:pb-1 sm:z-[10]
                         md:opacity-100 md:relative md:tracking-widest md:mt-0 md:ml-14
                       `}
                       >
