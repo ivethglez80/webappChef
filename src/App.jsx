@@ -1,6 +1,6 @@
 
 import React from "react"
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { BrowserRouter, Routes, Route,  } from "react-router-dom"
 import './App.css'
 import Home from "./views/home/home"
 import Chef from "./views/chef/chef"
@@ -16,6 +16,8 @@ import wpplogo  from "./img/wpp-logo.png"
 import { LangProvider } from "./context/langContext"
 
 function App() {
+  
+  
 
 
   return (
@@ -29,11 +31,11 @@ function App() {
             <NavBar />
 
             <div className="flex-1 md:h-screen md:overflow-hidden bg-neutral-900">
-            
+             
               <a href="https://api.whatsapp.com/send?phone=05491134318192&text=esta es una prueba" target="_blank">
-                <img src={wpplogo} className="sm:fixed md:absolute right-4 bottom-4 animate-pulse"/>                
-              </a>
-
+                <img src={wpplogo} className="sm:fixed md:absolute right-4 bottom-4 h-[60px] animate-pulse"/>                
+              </a> 
+              
               <Routes>
                 <Route exact path="/" Component={Home} />
                 <Route exact path="/chef" Component={Chef} />

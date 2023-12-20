@@ -1,4 +1,5 @@
 import React, { useContext, useState } from "react";
+import { FormattedMessage } from "react-intl";
 import { Link, useLocation } from "react-router-dom";
 import { langContext } from "../../context/langContext";
 import { MdMenu } from 'react-icons/md';
@@ -72,7 +73,7 @@ const NavBar = () => {
                 
 
                 
-                <ul className={`sm:absolute ${menuOpen ? "opacity-100" : "opacity-0"} 
+                <ul className={`sm:absolute ${menuOpen ? "opacity-100" : "opacity-0"} text-sm
                       sm:bg-black sm:rounded-sm font-title sm:text-center 
                         sm:mt-72 flex flex-col sm:right-8 sm:px-2 sm:pb-1
                         md:opacity-100 md:relative md:tracking-widest md:mt-0 md:ml-14
@@ -84,31 +85,33 @@ const NavBar = () => {
                     </li>
 
                     <li className={`${location.pathname === "/chef" ? "text-slate-200" : "text-slate-500"} md:border-b-2 md:border-yellow-400 md:mb-7 md:mx-4`}>
-                        <Link to="/chef" onClick={toggleMenu}> EL CHEF </Link>
+                        <Link to="/chef" onClick={toggleMenu}>
+                                        <FormattedMessage id="nav.chef" defaultMessage="THE CHEF" />
+                        </Link>
                     </li>
 
                     <li className={`${location.pathname === "/team" ? "text-slate-200" : "text-slate-500"} md:border-b-2 md:border-yellow-400 md:mb-7 md:mx-4`}>
-                        <Link to="/team" onClick={toggleMenu}> EQUIPO </Link>
+                        <Link to="/team" onClick={toggleMenu}> <FormattedMessage id="nav.team" defaultMessage="ABOUT US" /> </Link>
                     </li>
 
                     <li className={`${location.pathname === "/menu" ? "text-slate-200" : "text-slate-500"} md:border-b-2 md:border-yellow-400 md:mb-7 md:mx-4`}>
-                        <Link to="/menu" onClick={toggleMenu}> EL MENU</Link>
+                        <Link to="/menu" onClick={toggleMenu}> <FormattedMessage id="nav.menu" defaultMessage="MENU OPTIONS" /></Link>
                     </li>
 
                     <li className={`${location.pathname === "/services" ? "text-slate-200" : "text-slate-500"} md:border-b-2 md:border-yellow-400 md:mb-7 md:mx-4`}>
-                        <Link to="/services" onClick={toggleMenu}> SERVICIOS </Link>
+                        <Link to="/services" onClick={toggleMenu}> <FormattedMessage id="nav.service" defaultMessage="SERVICES" /> </Link>
                     </li>
 
                     <li className={`${location.pathname === "/events" ? "text-slate-200" : "text-slate-500"} md:border-b-2 md:border-yellow-400 md:mb-7 md:mx-4`}>
-                        <Link to="/events" onClick={toggleMenu}> EVENTOS </Link>
+                        <Link to="/events" onClick={toggleMenu}> <FormattedMessage id="nav.events" defaultMessage="EVENTS" /> </Link>
                     </li>
 
                     <li className={`${location.pathname === "/LosCabos" ? "text-slate-200" : "text-slate-500"} md:border-b-2 md:border-yellow-400 md:mb-7 md:mx-4`}>
-                        <Link to="/LosCabos" onClick={toggleMenu}> LOS CABOS </Link>
+                        <Link to="/LosCabos" onClick={toggleMenu}> <FormattedMessage id="nav.cabo" defaultMessage="LOS CABOS" /> </Link>
                     </li>
 
                     <li className={`${location.pathname === "/contactUs" ? "text-slate-200" : "text-slate-500"} md:border-b-2 md:border-yellow-400 md:mb-7 md:mx-4`}>
-                        <Link to="/contactUs" onClick={toggleMenu}> CONTACTO </Link>
+                        <Link to="/contactUs" onClick={toggleMenu}> <FormattedMessage id="nav.contactUs" defaultMessage="CONTACT US" /> </Link>
                     </li>
 
                 </ul>

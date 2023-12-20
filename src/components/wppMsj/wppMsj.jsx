@@ -4,11 +4,11 @@ import wpplogo  from "./../../img/wpp-logo.png"
 const SendWpp = () =>{
     return (
         <>
-        <span className="bg-green-300">                
-                <a href="https://api.whatsapp.com/send?phone=05491134318192&text=esta es una prueba" target="_blank">
+        <div className="bg-green-300 absolute">                
+                <a href="https://api.whatsapp.com/send?phone=05491134318192&text=Hello, I would like to know more about the chef services!" target="_blank">
                 <img src={wpplogo} className=""/>
                 </a>
-        </span>
+        </div>
         </>
     )
 };

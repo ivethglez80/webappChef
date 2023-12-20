@@ -1,11 +1,11 @@
 {
-    "nav.chef": "Chef Alfonso",
-    "nav.team": "Professional Team",
-    "nav.menu": "The Menu",
-    "nav.service": "Services",
-    "nav.events": "Events",
-    "nav.cabo": "Los Cabos",
-    "nav.contactUs": "Contact Us",
+    "nav.chef": "THE CHEF",
+    "nav.team": "ABOUT US",
+    "nav.menu": "MENU OPTIONS",
+    "nav.service": "SERVICES",
+    "nav.events": "EVENTS",
+    "nav.cabo": "LOS CABOS",
+    "nav.contactUs": "CONTACT US",
 
     "home.title": "this is home",
 
@@ -26,7 +26,7 @@
     "menu.p1" : "When we indulge in Chef Alfonso's culinary experience, we not only taste the masterful blend of ingredients but also immerse ourselves in a feast of experiences, memories, and narratives that transport us to unforgettable moments and places. ",
     "menu.p2" : "Every bite is an exhilarating journey that embeds itself in our memory and comfortably settles in the most special corner of our hearts.",
     "menu.p3" : "Delighting in his creations is not just about nourishing the body; it is about feeding the soul with a symphony of emotions that resonate long after the last delicious note has been savored.",
-    "menu.title2" : "Complete Menu Options",
+    "menu.title2" : "Complete Menu Options:",
     "menu.p21" : "The menu options presented below are not exhaustive. Contact us to create an exclusive, tailored, and personalized menu for your event or occasion.",
 
     "menu.app" : "WELCOME MENU",
@@ -51,7 +51,59 @@
     "menu.br5": "Vegetable Omelette | Chorizo | Cheese",
     "menu.br6": "Toasted Bread with Avocado and Fresh Leaves",
     "menu.br7": "Enfrijoladas with Chicken | Cheese",
-    "menu.br8": "Additionally: Cereals | Yogurt | Fruit | Hot Cakes or Waffles | Potatoes with Sausage | Coffee | Tea | Orange Juice",
+    "menu.br8": "Additionally: Cereals | Yogurt | Fruit | Hot Cakes or Waffles | Potatoes with Sausage ",
+    "menu.brDrinks": "Coffee | Tea | Orange Juice",
+
+    "menu.lunch": "MENU LUNCH",
+    "menu.lunch1": "Pick your style, we'll craft the perfect combination",
+    "menu.lunch2": "Seafood party",
+    "menu.lunch3": "Beach BBQ",
+    "menu.lunch4": "Taco party",
+
+    "menu.dinner": "SEA AT NIGHT",
+    "menu.dinner1": "We will create a complete menu to your liking and pleasure, it includes:",
+    "menu.dinner2": "Appetizer and welcome cocktail",
+    "menu.dinner3": "Starter",
+    "menu.dinner4": "Main course",
+    "menu.dinner5": "Dessert",
+    "menu.dinner6": "Wine",
+
+    "menu.mex": "MEXICAN BEACH MENU",
+    "menu.mex1": "Mini mixed snacks",
+    "menu.mex2": "Nopal salad",
+    "menu.mex3": "Shrimp soup | Ceviche | Grilled fish",
+    "menu.mex4": "Steak or garlic shrimp | Diablo style",
+    "menu.mex5": "DESSERTS",
+    "menu.mex6": "Chocolate volcano",
+    "menu.mex7": "Fried Ice Cream",
+    "menu.mex8": "Napolitan Flan",
+
+    "menu.int": "INTERNATIONAL CUISINE",
+    "menu.int1": "Options for complete international menu:",
+    "menu.int2": "Italian",
+    "menu.int3": "Argentinian",
+    "menu.int4": "Japanese",
+    "menu.int5": "Inquire about your preference",
+
+    "menu.tasting": "TEQUILA TASTING",
+    "menu.tasting1": "Enjoy the complete experience we have designed for you",
+    "menu.tasting2": "Variety of Blanco | Reposado | Añejo Tequila",
+    "menu.tasting3": "Delicious pairings at each stage",
+    "menu.tasting4": "The best accompaniment: Mariachi",
+    "menu.tasting5": "",
+
+    "menu.more": "AND MORE...",
+    "menu.more1": "We also offer complete menu options:",
+    "menu.more2": "Vegetarian Menu",
+    "menu.more3": "Coffee and fine pastry service",
+    "menu.end": "The options are endless when you have the service and expertise of Chef Alfonso and his team by your side!",
+
+
+
+
+
+
+
 
     "svcs.title": "Services",
     "svcs.desc": "Whatever the occasion or event, we have the available services to make it perfect and unforgettable.",

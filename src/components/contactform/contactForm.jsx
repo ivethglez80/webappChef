@@ -136,7 +136,7 @@ const ContactForm = () => {
                                                  
                     />
                 </div>
-                <div className="mb-3 flex justify-end">
+                <div className="mb-3 flex justify-start">
                     
                     <Button type="submit" className="bg-yellow-400 enabled:hover:bg-yellow-500">Submit</Button>
                 </div>
